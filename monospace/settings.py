@@ -1,8 +1,8 @@
 import os
 
 # Stripe keys
-STRIPE_PUBLISHABLE = 'pk_dHA9lrZx2If0QQyGU3aHUf8K8J5PW'
-STRIPE_SECRET = '82H5Cfy1n0Iw2ot4BVblgc8zN8aPl7mh'
+STRIPE_PUBLISHABLE = 'pk_YT1CEhhujd0bklb2KGQZiaL3iTzj3'
+STRIPE_SECRET = 'tGN0bIwXnHdwOa85VABjPdSn8nWY7G7I'
 
 # customized settings
 PROJECT_ROOT = os.path.realpath(os.path.dirname(__file__))
