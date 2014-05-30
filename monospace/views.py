@@ -90,7 +90,7 @@ def register(request):
     'register.html',
     {
       'form': form,
-      'months': range(1, 12),
+      'months': range(1, 13),
       'publishable': settings.STRIPE_PUBLISHABLE,
       'soon': soon(),
       'user': user,
@@ -127,7 +127,7 @@ def edit(request):
       'form': form,
       'publishable': settings.STRIPE_PUBLISHABLE,
       'soon': soon(),
-      'months': range(1, 12),
+      'months': range(1, 13),
       'years': range(2011, 2036)
     },
     context_instance=RequestContext(request)
